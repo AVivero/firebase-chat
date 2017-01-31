@@ -40,6 +40,7 @@ $(document).ready(function () {
         if ($('#msgInput').val() !== '') {
             message.userName = user.name;
             message.text = $('#msgInput').val();
+            message.avatarUrl = user.avatarUrl;
             db.push(message);
             $('#msgInput').val('');
         }
@@ -59,7 +60,7 @@ $(document).ready(function () {
 
 
 function addOtherMessage(message) {
-    $(`.messages`).append(`<div class='otherMessage'><div class='userPic'></div><div class='text'>${message.text}</div><div class='userName'>${message.userName}</div></div>`);
+    $(`.messages`).append(`<div class='otherMessage'><img class="userPic" src="${message.avatarUrl}"/><div class='text'>${message.text}</div><div class='userName'>${message.userName}</div></div>`);
 }
 //
 function addMyMessage(message) {

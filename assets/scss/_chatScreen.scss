@@ -43,7 +43,7 @@
   align-items: flex-start;
   flex: 8;
   margin: 5px 20px 10px 20px;
-  width: 89%;
+  overflow: scroll;
 
 }
 
@@ -69,11 +69,13 @@
 .userName {
   font-weight: bold;
   color: #DBDBDB;
+  font-size: 12px;
 }
 
 .text {
   text-align: center;
   flex-wrap: wrap;
+  padding-bottom: 5px;
 }
 
 .myMessage {

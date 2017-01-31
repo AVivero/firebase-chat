@@ -93,7 +93,7 @@
   align-items: flex-start;
   flex: 8;
   margin: 5px 20px 10px 20px;
-  width: 89%; }
+  overflow: scroll; }
 
 .otherMessage {
   margin-top: 15px;
@@ -113,11 +113,13 @@
 
 .userName {
   font-weight: bold;
-  color: #DBDBDB; }
+  color: #DBDBDB;
+  font-size: 12px; }
 
 .text {
   text-align: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  padding-bottom: 5px; }
 
 .myMessage {
   margin-top: 15px;
