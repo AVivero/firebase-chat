@@ -1,59 +1,4 @@
-.mainWindow {
-  max-width: 380px;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  margin: 0 auto;
-  color: #fff;
-  -webkit-box-shadow: 0px 0px 28px 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 28px 1px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 28px 1px rgba(0, 0, 0, 0.75);
-  background-size: cover;
-  background: url("../img/bg1.jpg"), linear-gradient(black, black) no-repeat center;
-  filter: alpha(opacity=0.5); }
-
-.logo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex: 2; }
-
-.logo > img {
-  width: 120px;
-  height: 120px; }
-
-.logo > h2 {
-  font-weight: bold; }
-
-.login {
-  margin-top: 40px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.loginFacebook {
-  flex: 1; }
-
-.loginFacebook > button {
-  background-color: #3B5998;
-  color: #fff;
-  font-size: 17px;
-  border-style: none;
-  padding: 10px;
-  margin: 20px 20px 20px 30px; }
-
-.loginFacebook > button:hover {
-  background-color: #3e7cd2; }
-
-.faceIcon {
-  margin-right: 10px;
-  font-size: 22px; }
+@import "_colorVariable";
 
 .main {
   max-width: 380px;
@@ -65,12 +10,16 @@
   width: 100%;
   margin: 0 auto;
   color: #fff;
+
   -webkit-box-shadow: 0px 0px 28px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 28px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 28px 1px rgba(0, 0, 0, 0.75);
+
   background-size: cover;
   background: url("../img/bg1.jpg"), linear-gradient(black, black) no-repeat center;
-  filter: alpha(opacity=0.5); }
+  filter: alpha(opacity=0.5);
+
+}
 
 .userInfo {
   display: flex;
@@ -84,7 +33,8 @@
   border-style: solid;
   border-width: 1px;
   padding-top: 10px;
-  padding-left: 15px; }
+  padding-left: 15px;
+}
 
 .messages {
   display: flex;
@@ -93,7 +43,9 @@
   align-items: flex-start;
   flex: 8;
   margin: 5px 20px 10px 20px;
-  width: 89%; }
+  width: 89%;
+
+}
 
 .otherMessage {
   margin-top: 15px;
@@ -101,7 +53,9 @@
   color: #fff;
   padding: 10px 10px 10px 10px;
   border-radius: 15px;
-  width: 280px; }
+  width: 280px;
+
+}
 
 .userPic {
   background-image: url("../img/user.png");
@@ -109,15 +63,18 @@
   height: 35px;
   background-size: cover;
   margin-bottom: 10px;
-  margin-right: 35px; }
+  margin-right: 35px;
+}
 
 .userName {
   font-weight: bold;
-  color: #DBDBDB; }
+  color: #DBDBDB;
+}
 
 .text {
   text-align: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+}
 
 .myMessage {
   margin-top: 15px;
@@ -126,7 +83,8 @@
   padding: 10px 10px 10px 10px;
   margin-left: 18%;
   border-radius: 15px;
-  width: 280px; }
+  width: 280px;
+}
 
 .insertText {
   display: flex;
@@ -138,9 +96,12 @@
   width: 100%;
   background-color: #292D38;
   padding: 0 8px 0 8px;
+
   border-color: #555;
   border-style: solid;
-  border-width: 1px; }
+  border-width: 1px;
+
+}
 
 #msgInput {
   border: none;
@@ -148,10 +109,12 @@
   color: #fff;
   overflow: visible;
   flex: 4;
-  padding: 5px; }
+  padding: 5px;
+}
 
 #msgInput:focus {
-  outline-color: transparent; }
+  outline-color: transparent;
+}
 
 #postMsg {
   border: none;
@@ -159,18 +122,17 @@
   flex: 1;
   height: 100%;
   font-weight: bold;
-  color: #fff; }
+  color: #fff;
+}
 
 #postMsg:focus {
-  outline-color: transparent; }
+  outline-color: transparent;
+
+}
 
 #logoutFacebook {
   background-color: #3E7CD2;
   border-style: none;
   padding: 5px;
-  margin-right: 10px; }
-
-body {
-  font-family: 'Roboto', sans-serif; }
-
-/*# sourceMappingURL=main.css.map */
+  margin-right: 10px;
+}
