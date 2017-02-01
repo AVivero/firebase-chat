@@ -53,6 +53,7 @@ $(document).ready(function () {
                 addMyMessage(snapshot.val());
             else
                 addOtherMessage(snapshot.val());
+            $('.messages').scrollTop($('.messages')[0].scrollHeight);
         }
     });
 

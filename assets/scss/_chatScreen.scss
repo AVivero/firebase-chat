@@ -55,6 +55,9 @@
   color: #fff;
   padding: 10px 10px 10px 10px;
   border-radius: 15px;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  max-width: 80vw;
 }
 
 .userPic {
@@ -85,6 +88,10 @@
   padding: 10px 10px 10px 10px;
   margin-left: 18%;
   border-radius: 15px;
+  min-width: 40vw;
+  align-self: flex-end;
+  overflow-wrap: break-word;
+  max-width: 80vw;
 }
 
 .insertText {
