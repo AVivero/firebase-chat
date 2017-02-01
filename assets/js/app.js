@@ -46,6 +46,20 @@ $(document).ready(function () {
         }
     });
 
+    $(document).on("keydown", "#msgInput", function (e) {
+        if (e.keyCode == 13) {
+            e.preventDefault();
+            if ($('#msgInput').val() !== '' && $('#msgInput').val().length > 0) {
+                message.userName = user.name;
+                message.text = $('#msgInput').val();
+                message.avatarUrl = user.avatarUrl;
+                db.push(message);
+                $('#msgInput').val('');
+            }
+        }
+    });
+
+
     db.limitToLast(1).on('child_added', function (snapshot) {
         msgs++;
         if (msgs > 1) {
@@ -53,7 +67,7 @@ $(document).ready(function () {
                 addMyMessage(snapshot.val());
             else
                 addOtherMessage(snapshot.val());
-            $('.messages').scrollTop($('.messages')[0].scrollHeight);
+            // if ($('.messages').scrollTop == $('.messages').height)
         }
     });
 
@@ -62,10 +76,19 @@ $(document).ready(function () {
 
 function addOtherMessage(message) {
     $(`.messages`).append(`<div class='otherMessage'><img class="userPic" src="${message.avatarUrl}"/><div class='text'>${message.text}</div><div class='userName'>${message.userName}</div></div>`);
+    $('.otherMessage:last').toggle('fast');
+    console.log();
+    setTimeout(function () {
+        scrollDown();
+    }, 250);
 }
 
 function addMyMessage(message) {
     $(`.messages`).append(`<div class='myMessage'><div class='text'>${message.text}</div><div class='userName'>Me</div></div>`);
+    $('.myMessage:last').toggle('fast');
+    setTimeout(function () {
+        scrollDown();
+    }, 250);
 }
 
 
@@ -134,4 +157,8 @@ function goToLogin() {
 </div>`);
 }
 
+function scrollDown() {
+
+    $('.messages').scrollTop(250000);
+}
 
