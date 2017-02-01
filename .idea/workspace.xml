@@ -6,7 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/f23eae71f8d013cfda2f5c372579b0223619d23b/_chatScreen.scssc" afterPath="$PROJECT_DIR$/.sass-cache/f23eae71f8d013cfda2f5c372579b0223619d23b/_chatScreen.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css.map" afterPath="$PROJECT_DIR$/assets/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/_chatScreen.scss" afterPath="$PROJECT_DIR$/assets/scss/_chatScreen.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_chatScreen.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_chatScreen.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/scss/_chatScreen.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state relative-caret-position="599">
+              <caret line="86" column="22" lean-forward="false" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -62,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="794">
+            <state relative-caret-position="1652">
               <caret line="120" column="7" lean-forward="true" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
               <folding>
                 <marker date="1485915076579" expanded="true" signature="1948:2375" ph="..." />
@@ -89,8 +88,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/scss/_chatScreen.scss" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/assets/scss/_chatScreen.scss" />
       </list>
     </option>
   </component>
@@ -203,12 +202,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1485913961683</updated>
-      <workItem from="1485913963085" duration="1221000" />
+      <workItem from="1485913963085" duration="2630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1221000" />
+    <option name="totallyTimeSpent" value="2630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -252,7 +251,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_loginScreen.scss">
+    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1652">
+          <caret line="120" column="7" lean-forward="true" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
+          <folding>
+            <marker date="1485915076579" expanded="true" signature="1948:2375" ph="..." />
+            <marker date="1485915076579" expanded="true" signature="1975:2142" ph="..." />
+            <marker date="1485915076579" expanded="true" signature="2169:2182" ph="..." />
+            <marker date="1485915076579" expanded="true" signature="2212:2367" ph="..." />
+            <marker date="1485915076579" expanded="true" signature="3493:3788" ph="..." />
+            <marker date="1485915076579" expanded="true" signature="3516:3582" ph="..." />
+            <marker date="1485915076579" expanded="true" signature="3606:3781" ph="..." />
+            <marker date="1485915076579" expanded="true" signature="3642:3770" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -260,7 +276,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/main.scss">
+    <entry file="file://$PROJECT_DIR$/assets/scss/_loginScreen.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -278,26 +294,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/_chatScreen.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="599">
+          <caret line="86" column="22" lean-forward="false" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="120" column="7" lean-forward="true" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
-          <folding>
-            <marker date="1485915076579" expanded="true" signature="1948:2375" ph="..." />
-            <marker date="1485915076579" expanded="true" signature="1975:2142" ph="..." />
-            <marker date="1485915076579" expanded="true" signature="2169:2182" ph="..." />
-            <marker date="1485915076579" expanded="true" signature="2212:2367" ph="..." />
-            <marker date="1485915076579" expanded="true" signature="3493:3788" ph="..." />
-            <marker date="1485915076579" expanded="true" signature="3516:3582" ph="..." />
-            <marker date="1485915076579" expanded="true" signature="3606:3781" ph="..." />
-            <marker date="1485915076579" expanded="true" signature="3642:3770" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
