@@ -1,5 +1,4 @@
 .mainWindow {
-  max-width: 380px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -56,7 +55,6 @@
   font-size: 22px; }
 
 .main {
-  max-width: 380px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
