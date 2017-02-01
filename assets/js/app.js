@@ -62,7 +62,7 @@ $(document).ready(function () {
 function addOtherMessage(message) {
     $(`.messages`).append(`<div class='otherMessage'><img class="userPic" src="${message.avatarUrl}"/><div class='text'>${message.text}</div><div class='userName'>${message.userName}</div></div>`);
 }
-//
+
 function addMyMessage(message) {
     $(`.messages`).append(`<div class='myMessage'><div class='text'>${message.text}</div><div class='userName'>Me</div></div>`);
 }
@@ -109,10 +109,16 @@ function loginFacebook() {
 }
 
 function logoutFacebook() {
-    firebase.auth().signOut();
-    user.name = 'anonymous';
-    user.avatarUrl = '';
-    goToLogin();
+
+    firebase.auth().signOut().then(function () {
+        location.reload();
+        user.name = 'anonymous';
+        user.avatarUrl = '';
+        goToLogin();
+    }, function (error) {
+        // An error happened.
+        console.log(error);
+    });
 }
 
 function goToLogin() {
