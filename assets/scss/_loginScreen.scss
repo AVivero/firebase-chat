@@ -1,6 +1,7 @@
 @import "_colorVariable";
 
 .mainWindow {
+  max-width: 450px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
